@@ -22,7 +22,7 @@ To make it display characters, I included a `__str__()` method in each class.
 
 ### DataFrame Styling
 
-I wanted to distinguish between pieces by making the text red. It is [possible to do so](https://pandas.python.org/pandas-docs/stable/user_guide/style.html) if the DataFrame contains numbers, but my DataFrame contains objects, which seems to be preventing it from working.
+I wanted to distinguish between pieces by making the text red. It is [possible to do so](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html) if the DataFrame contains numbers, but my DataFrame contains objects, which seems to be preventing it from working.
 
 I ended up using uppercase and lowercase characters instead.
 
